@@ -1,0 +1,6 @@
+const ul = document.createElement('ul')
+ul.classList.add('list')
+const li = document.createElement('li')
+ul.append(li)
+li.textContent = ('Привет мир')
+console.log(ul)
